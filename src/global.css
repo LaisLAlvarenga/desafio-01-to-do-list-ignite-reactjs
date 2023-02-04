@@ -16,7 +16,10 @@
     --red: #E25858;
     --white: #FFFF;
 }
-
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 1px var(--purple);
+}
 * {
     border: 0;
     margin: 0;
