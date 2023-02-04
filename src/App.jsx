@@ -1,6 +1,14 @@
+import "./global.css";
+import styles from './App.module.css';
+import Logo from './assets/logo.svg';
+
 function App() {
   return (
-    <h1>ToDoList</h1>
+    <>
+      <header className={styles.header}>
+        <img src={Logo} alt="Logomarca do ToDo" />
+      </header>
+    </>
   )
 }
 
