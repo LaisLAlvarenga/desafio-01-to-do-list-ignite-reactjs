@@ -22,6 +22,18 @@ function App() {
             <PlusCircle size={30} />
         </button>
       </form>
+
+      <div className={styles.infoTask}>
+        <div>
+            <strong className={styles.created}>Tarefas criadas</strong>
+            <span>3</span>
+        </div>
+
+        <div>
+            <strong className={styles.conclued}>Concluídas</strong>
+            <span>2 de 3</span>
+        </div>
+      </div>
     </>
   )
 }

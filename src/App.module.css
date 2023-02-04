@@ -49,3 +49,34 @@
 .form button:hover {
     background-color: var(--blue);
 }
+
+.infoTask  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 4rem 20rem 0rem;
+}
+
+.infoTask div {
+    display: flex;    
+    align-items: center;
+    gap: 0.5rem;
+
+    font-weight: 700;
+}
+
+.infoTask .created {
+    color: var(--blue);
+}
+
+.infoTask .conclued {
+    color: var(--purple);
+}
+
+.infoTask span {
+    background-color: var(--gray-400);
+    border-radius: 18px;    
+    padding: 0.1rem 0.5rem;
+}
+
